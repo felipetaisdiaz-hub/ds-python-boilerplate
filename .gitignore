@@ -7,4 +7,54 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+venv/
+ENV/
+
+# Testing, coverage & static analysis
+.coverage
+.coverage.*
+coverage.xml
+test-results.xml
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data Science & Machine Learning artifacts (keep directory structure via .gitkeep)
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+
+models/*
+!models/.gitkeep
+
+mlruns/
+wandb/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# OS & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
