@@ -23,6 +23,7 @@ def init_project(new_name: str) -> None:
 
     root_dir = Path(__file__).resolve().parents[1]
     files_to_update = [
+        root_dir / "AGENTS.md",
         root_dir / "pyproject.toml",
         root_dir / "sonar-project.properties",
         root_dir / "config" / "config.yaml",

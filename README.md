@@ -35,6 +35,7 @@ ds-python-boilerplate/
 ├── .gitignore                   # Reglas de exclusión para Python, DS/ML y secretos
 ├── .pre-commit-config.yaml      # Hooks locales (Ruff, nbstripout, secretos)
 ├── .python-version              # Versión de Python fijada para uv (3.13)
+├── AGENTS.md                    # Memoria y reglas automáticas para agentes de IA
 ├── Makefile                     # Atajos para tareas frecuentes
 ├── pyproject.toml               # Configuración unificada (dependencias, pytest, ruff, mypy)
 └── sonar-project.properties     # Configuración de análisis estático para SonarCloud
